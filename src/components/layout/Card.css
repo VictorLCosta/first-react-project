@@ -1,0 +1,64 @@
+.box {
+    width: 35rem;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: .5rem;
+    overflow: hidden;
+}
+
+.box .box-img {
+    overflow: hidden;
+    width: 35rem;
+    height: 20rem;
+}
+
+.box .box-img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.box .box-img .info {
+    position: absolute;
+    top: 2%; left: 2%;
+    display: flex;
+    gap: .5rem;
+}
+
+.box .box-img .info h3 {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.6);
+    font-weight: 300;
+    font-size: 1.4rem;
+    padding: .5rem;
+    border-radius: .3rem;
+    text-transform: capitalize;
+}
+
+
+.box .box-content {
+    padding: 1rem;
+}
+
+.box .box-content .details {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 1.4rem;
+    margin: 1.5rem 0;
+    padding: .5rem 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.box .box-content .actions {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.box .box-content .actions .btn-action {
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+    background: #f9edeb;
+    color: #ff5a3c;
+}
